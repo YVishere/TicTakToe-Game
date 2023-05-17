@@ -1,3 +1,5 @@
+#uploaded on 17th may 2023 to be a tictaktoe game with computer as an opponent and score will tallied as win=1, draw=0, lose=-1
+
 from tkinter import *
 import numpy as np
 import random
