@@ -1,3 +1,5 @@
+#uploaded on 17th may 2023 to find the best moves for the computer in a tic tak toe - moves are chosen in the order of preference: winning move > users winning move > random move
+
 from random import *
 from tkinter import *
 def predict(moves, user,comp):
