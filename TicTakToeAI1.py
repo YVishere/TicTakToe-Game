@@ -1,4 +1,5 @@
 #uploaded on 17th may 2023 to find the best moves for the computer in a tic tak toe - moves are chosen in the order of preference: winning move > users winning move > random move
+#updated on 24th may by addind a main method so that it is compatible with my program manager code
 
 from random import *
 from tkinter import *
@@ -72,3 +73,6 @@ def recurring(user, i):
                     return(3-(row+2-j),3-(column+j))
 
     return (-1,-1)
+
+def main():
+    pass
